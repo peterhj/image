@@ -42,7 +42,8 @@ pub use image::{
     GenericImage,
     // Iterators
     Pixels,
-    MutPixels
+    MutPixels,
+    DecodingResult
 };
 
 pub use imageops::FilterType::{
